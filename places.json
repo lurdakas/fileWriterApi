@@ -1,1 +1,192 @@
-[{"code":"abromiskes","name":"Abromiškės","administrativeDivision":"Elektrėnų savivaldybė","countryCode":"LT","coordinates":"55.40348"},{"code":"acokavai","name":"Acokavai","administrativeDivision":"Radviliškio rajono savivaldybė","countryCode":"LT","coordinates":"55.72656"}]
+[
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  },
+  {
+    "code": "abromiskes",
+    "name": "Abromiškės",
+    "administrativeDivision": "Elektrėnų savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "24.71032",
+      "longitude": "55.40348"
+    }
+  },
+  {
+    "code": "acokavai",
+    "name": "Acokavai",
+    "administrativeDivision": "Radviliškio rajono savivaldybė",
+    "countryCode": "LT",
+    "coordinates": {
+      "latitude": "23.34748",
+      "longitude": "55.72656"
+    }
+  }
+]

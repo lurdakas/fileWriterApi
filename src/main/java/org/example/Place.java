@@ -6,22 +6,31 @@ public class Place {
     private String code;
     private String name;
     private String administrativeDivision;
+    private String country;
     private String countryCode;
-    private String coordinates;
+    private Coordinates coordinates;
 
 
     public Place() {
     }
 
-    public Place(String code, String name, String administrativeDivision, String countryCode, String coordinates) {
+
+    public Place(String code, String name, String administrativeDivision, String country, String countryCode, String latitude,String longitude) {
         this.code = code;
         this.name = name;
         this.administrativeDivision = administrativeDivision;
+        this.country = country;
+        this.countryCode = countryCode;
+        this.coordinates = new Coordinates(latitude,longitude);
+    }
+    public Place(String code, String name, String administrativeDivision, String country, String countryCode, Coordinates coordinates) {
+        this.code = code;
+        this.name = name;
+        this.administrativeDivision = administrativeDivision;
+        this.country = country;
         this.countryCode = countryCode;
         this.coordinates = coordinates;
     }
-
-
 
     public String getCode() {
         return code;
@@ -47,6 +56,14 @@ public class Place {
         this.administrativeDivision = administrativeDivision;
     }
 
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
     public String getCountryCode() {
         return countryCode;
     }
@@ -55,24 +72,25 @@ public class Place {
         this.countryCode = countryCode;
     }
 
-    public String getCoordinates() {
+    public Coordinates getCoordinates() {
         return coordinates;
     }
 
-    public void setCoordinates(String coordinates) {
+    public void setCoordinates(Coordinates coordinates) {
         this.coordinates = coordinates;
     }
 
+
     @Override
     public boolean equals(Object obj) {
-       if (this == obj){
-           return true;
-       }
-       if (obj == null || getClass() != obj.getClass()){
-           return false;
-       }
-       Place place = (Place) obj;
-       return code == place.code;
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        Place place = (Place) obj;
+        return code.equals(place.code);
     }
 
     @Override
@@ -81,6 +99,7 @@ public class Place {
                 "code='" + code + '\'' +
                 ", name='" + name + '\'' +
                 ", administrativeDivision='" + administrativeDivision + '\'' +
+                ", country='" + country + '\'' +
                 ", countryCode='" + countryCode + '\'' +
                 ", coordinates='" + coordinates + '\'' +
                 '}';
