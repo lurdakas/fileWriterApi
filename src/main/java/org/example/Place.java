@@ -15,14 +15,7 @@ public class Place {
     }
 
 
-    public Place(String code, String name, String administrativeDivision, String country, String countryCode, String latitude,String longitude) {
-        this.code = code;
-        this.name = name;
-        this.administrativeDivision = administrativeDivision;
-        this.country = country;
-        this.countryCode = countryCode;
-        this.coordinates = new Coordinates(latitude,longitude);
-    }
+
     public Place(String code, String name, String administrativeDivision, String country, String countryCode, Coordinates coordinates) {
         this.code = code;
         this.name = name;
@@ -95,13 +88,13 @@ public class Place {
 
     @Override
     public String toString() {
-        return "Place{" +
-                "code='" + code + '\'' +
-                ", name='" + name + '\'' +
-                ", administrativeDivision='" + administrativeDivision + '\'' +
-                ", country='" + country + '\'' +
-                ", countryCode='" + countryCode + '\'' +
-                ", coordinates='" + coordinates + '\'' +
-                '}';
+        return "Place{\n" +
+                "  code='" + code + "',\n" +
+                "  name='" + name + "',\n" +
+                "  administrativeDivision='" + administrativeDivision + "',\n" +
+                "  country='" + country + "',\n" +
+                "  countryCode='" + countryCode + "',\n" +
+                "  coordinates='" + coordinates + "'\n" +
+                "}";
     }
 }
